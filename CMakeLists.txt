@@ -10,3 +10,5 @@ project(SFMLTest)
 find_package(SFML 2.6.1 COMPONENTS graphics audio REQUIRED)
 add_executable(SFMLTest src/main.cpp src/player.cpp)
 target_link_libraries(SFMLTest sfml-graphics sfml-audio)
+
+include_directories(./include)
