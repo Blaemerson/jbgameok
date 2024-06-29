@@ -4,7 +4,7 @@
 int main(int argc, char** argv)
 {
     Player player;
-    std::cout << "player.x = " << player.getPosition().x << std::endl;
-    std::cout << "player.y = " << player.getPosition().y << std::endl;
+    std::cout << "player.x = " << player.GetPosition().x << std::endl;
+    std::cout << "player.y = " << player.GetPosition().y << std::endl;
     return 0;
 }

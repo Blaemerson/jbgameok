@@ -3,20 +3,10 @@
 class Player
 {
     public:
-        Player()
-        {
-            position = {0,0};
-            velocity = {0.f};
-        }
-        Position getPosition()
-        {
-            return position;
-        }
-        Velocity getVelocity()
-        {
-            return velocity;
-        }
+        Player();
+        PositionType GetPosition();
+        VelocityType GetVelocity();
     private:
-        Position position;
-        Velocity velocity;
+        PositionType Position;
+        VelocityType Velocity;
 };

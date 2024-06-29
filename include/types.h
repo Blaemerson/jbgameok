@@ -2,10 +2,10 @@ typedef struct Position
 {
     int x;
     int y;
-} Position;
+} PositionType;
 
 typedef struct Velocity
 {
     // TODO: direction
     float speed;
-} Velocity;
+} VelocityType;
