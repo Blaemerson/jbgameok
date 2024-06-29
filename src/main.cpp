@@ -1,5 +1,6 @@
 #include <iostream>
 #include "player.h"
+#include <SFML/Graphics.hpp>
 
 int main(int argc, char** argv)
 {
