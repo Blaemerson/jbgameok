@@ -12,3 +12,7 @@ add_executable(SFMLTest src/main.cpp src/player.cpp)
 target_link_libraries(SFMLTest sfml-graphics sfml-audio)
 
 include_directories(./include)
+include_directories(./include/levels)
+
+# Copy level0.txt to the build directory
+configure_file(${CMAKE_SOURCE_DIR}/include/levels/level0.txt ${CMAKE_BINARY_DIR}/levels/level0.txt COPYONLY)
