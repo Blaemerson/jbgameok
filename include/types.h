@@ -9,3 +9,10 @@ typedef struct Velocity
     // TODO: direction
     float speed;
 } VelocityType;
+
+typedef struct Scale
+{
+
+    float scale;
+
+} ScaleType;

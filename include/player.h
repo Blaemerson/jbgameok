@@ -6,7 +6,9 @@ class Player
         Player();
         PositionType GetPosition();
         VelocityType GetVelocity();
+        ScaleType GetScale();
     private:
         PositionType Position;
         VelocityType Velocity;
+        ScaleType Scale;
 };

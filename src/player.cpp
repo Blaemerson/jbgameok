@@ -4,6 +4,7 @@ Player::Player()
 {
     Position = {0, 0};
     Velocity = {0.f};
+    Scale;
 }
 
 VelocityType Player::GetVelocity()
@@ -14,4 +15,9 @@ VelocityType Player::GetVelocity()
 PositionType Player::GetPosition()
 {
     return Position;
+}
+
+ScaleType Player::GetScale()
+{
+    return Scale;
 }

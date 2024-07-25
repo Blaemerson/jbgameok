@@ -5,6 +5,8 @@
 #include <vector>
 #include <string>
 
+//#include "player.cpp"
+
 // Block structure
 struct Block {
     sf::Vector2f position;
